@@ -15,7 +15,7 @@ Python 3+
 
 .. code:: bash
 
-   pip install amazon-scraper
+   pip install amazon-scraper-by-outscraper
 
 `Link to the python package
 page <https://pypi.org/project/google-maps-reviews/>`__
