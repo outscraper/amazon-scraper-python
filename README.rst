@@ -1,4 +1,4 @@
-Outscraper SDK in Python
+Amazon Scraper Python
 ========================
 
 Python SDK that allows scraping Amazon products data and Amazon products
