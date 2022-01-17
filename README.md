@@ -17,7 +17,7 @@ pip install amazon-scraper
 
 ## Initialization
 ```python
-from amazon_scraper import AmazonClient
+from amazon_scraper_by_outscraper import AmazonClient
 
 client = AmazonClient(api_key='SECRET_API_KEY')
 ```

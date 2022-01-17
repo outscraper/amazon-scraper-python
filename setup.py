@@ -1,7 +1,7 @@
 from setuptools import setup
 
 
-from amazon_scraper import VERSION
+from amazon_scraper_by_outscraper import VERSION
 
 
 def readme():
@@ -10,7 +10,7 @@ def readme():
 
 
 setup(
-    name='amazon-scraper',
+    name='amazon-scraper-by-outscraper',
     version=VERSION,
     description='Amazon Scraper API SDK',
     long_description=readme(),
@@ -25,7 +25,7 @@ setup(
     author='Outscraper',
     author_email='developers@outscraper.com',
     license='MIT',
-    packages=['amazon_scraper'],
+    packages=['amazon_scraper_by_outscraper'],
     install_requires=['requests'],
     include_package_data=True,
     zip_safe=False,
