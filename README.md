@@ -10,7 +10,7 @@ Python SDK that allows scraping Amazon products data and Amazon products reviews
 
 Python 3+
 ```bash
-pip install amazon-scraper
+pip install amazon-scraper-by-outscraper
 ```
 
 [Link to the python package page](https://pypi.org/project/google-maps-reviews/)
