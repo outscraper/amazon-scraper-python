@@ -1,1 +1,1 @@
-from amazon_scraper_by_outscraper_by_outscraper.client import *
+from amazon_scraper_by_outscraper.client import *
