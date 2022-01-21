@@ -1,9 +1,6 @@
 from setuptools import setup
 
 
-from amazon_scraper_by_outscraper import VERSION
-
-
 def readme():
     with open('README.rst') as f:
         return f.read()
@@ -11,7 +8,7 @@ def readme():
 
 setup(
     name='amazon-scraper-by-outscraper',
-    version=VERSION,
+    version='0.0.3',
     description='Amazon Scraper API SDK',
     long_description=readme(),
     classifiers = ['Programming Language :: Python',

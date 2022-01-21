@@ -3,9 +3,6 @@ import requests
 from .utils import as_list
 
 
-VERSION = '0.0.2'
-
-
 class AmazonClient(object):
     """AmazonClient - Python SDK.
     ```python
@@ -22,7 +19,7 @@ class AmazonClient(object):
     def __init__(self, api_key: str) -> None:
         self._api_headers = {
             'X-API-KEY': api_key,
-            'client': f'Python G-Maps Reviews SDK {VERSION}'
+            'client': 'Python Amazon SDK'
         }
 
     def get_products(self, query: list, limit: int = 24) -> list:
